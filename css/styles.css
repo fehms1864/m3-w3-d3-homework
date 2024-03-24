@@ -14,7 +14,9 @@ nav a {
   text-decoration: none;
   color: white; }
 
-/* Nest Main */
+main #intro-text, main #intro-image {
+  margin: 1rem 0; }
+
 body {
   background-color: #daaa0e;
   font-family: Arial, Helvetica, Sans-Serif; }
@@ -24,10 +26,6 @@ main {
   min-height: 535px;
   background-color: white;
   display: flex; }
-  main section {
-    margin: 1rem 0; }
-    main section span {
-      font-family: "Sacramento", cursive; }
   main #intro-text {
     background-color: #d4d5d8;
     width: 55%;
@@ -39,7 +37,8 @@ main {
     align-items: center;
     padding: 0 1rem; }
     main #intro-text span {
-      font-size: 30px; }
+      font-size: 30px;
+      font-family: "Sacramento", cursive; }
     main #intro-text h3 {
       font-size: 30px; }
     main #intro-text button {
@@ -48,7 +47,6 @@ main {
       color: white;
       padding: 1rem 0.5rem; }
   main #intro-image {
-    text-align: end;
     margin-right: 1rem; }
     main #intro-image img {
       width: 100%;

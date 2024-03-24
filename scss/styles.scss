@@ -11,7 +11,11 @@ $textSize: 30px;
     padding: 1rem 0.5rem;
 }
 
-/* Nest Main */
+%sectionMargin {
+    margin: 1rem 0;
+}
+
+
 body {
     background-color: $vividYellow;
     font-family: $fontStyle1;
@@ -22,15 +26,9 @@ main {
     min-height:535px;
     background-color: $white;
     display: flex;
-    section {
-        margin: 1rem 0;
-
-        span {
-            font-family: $fontStyle2;
-        }
-    }
 
     #intro-text {
+        @extend %sectionMargin;
         background-color: $grayishBlue;
         width: 55%;
         text-align: center;
@@ -43,6 +41,7 @@ main {
 
         span {
             font-size: $textSize;
+            font-family: $fontStyle2;
         }
 
         h3 {
@@ -55,7 +54,7 @@ main {
     }
 
     #intro-image {
-        text-align: end;
+        @extend %sectionMargin;
         margin-right: 1rem;
         img {
             width: 100%;
