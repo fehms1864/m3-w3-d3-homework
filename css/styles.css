@@ -1,0 +1,58 @@
+/* Nest Nav */
+nav ul {
+  margin: 0;
+  padding: 0 5rem;
+  list-style: none; }
+
+nav li {
+  display: inline-block;
+  color: white; }
+
+nav a {
+  display: block;
+  padding: 1rem 0 2rem;
+  text-decoration: none;
+  color: white; }
+
+/* Nest Main */
+body {
+  background-color: #daaa0e;
+  font-family: Arial, Helvetica, Sans-Serif; }
+
+main {
+  width: 1350px;
+  min-height: 535px;
+  background-color: white;
+  display: flex; }
+  main section {
+    margin: 1rem 0; }
+    main section span {
+      font-family: "Sacramento", cursive; }
+  main #intro-text {
+    background-color: #d4d5d8;
+    width: 55%;
+    text-align: center;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem; }
+    main #intro-text span {
+      font-size: 30px; }
+    main #intro-text h3 {
+      font-size: 30px; }
+    main #intro-text button {
+      border-style: none;
+      background-color: #daaa0e;
+      color: white;
+      padding: 1rem 0.5rem; }
+  main #intro-image {
+    text-align: end;
+    margin-right: 1rem; }
+    main #intro-image img {
+      width: 100%;
+      height: 100%; }
+
+footer {
+  margin: 2rem 5rem; }
